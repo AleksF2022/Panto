@@ -1,26 +1,17 @@
-<svg width="26.000000" height="26.000000" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-	<desc>
-			Created with Pixso.
-	</desc>
-	<defs>
-		<filter id="filter_324_48_dd" x="0.000000" y="0.000000" width="26.000000" height="26.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-			<feOffset dx="0" dy="4"/>
-			<feGaussianBlur stdDeviation="1.33333"/>
-			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
-			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
-			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
-		</filter>
-		<clipPath id="clip324_48">
-			<rect width="18.000000" height="18.000000" transform="translate(4.000000 0.000000)" fill="white" fill-opacity="0"/>
-		</clipPath>
-	</defs>
-	<g filter="url(#filter_324_48_dd)">
-		<rect width="18.000000" height="18.000000" transform="translate(4.000000 0.000000)" fill="#FFFFFF" fill-opacity="0"/>
-		<g clip-path="url(#clip324_48)">
-			<path d="M16.341 5.59131C16.4995 5.44043 16.7104 5.35693 16.9292 5.35864C17.1479 5.36035 17.3576 5.44702 17.5137 5.6001C17.6699 5.75342 17.7604 5.96143 17.7662 6.18018C17.772 6.39893 17.6926 6.61133 17.5447 6.77246L13.056 12.3862C12.9788 12.4695 12.8857 12.5361 12.7821 12.5825C12.6785 12.6287 12.5667 12.6538 12.4533 12.6558C12.3398 12.658 12.2272 12.6372 12.1219 12.5947C12.0168 12.5522 11.9212 12.489 11.841 12.4087L8.86426 9.43213C8.78137 9.35474 8.71484 9.26172 8.66876 9.1582C8.62262 9.05469 8.59784 8.94287 8.59583 8.82959C8.59381 8.71631 8.61469 8.60376 8.6571 8.49878C8.69952 8.3938 8.7627 8.29834 8.84283 8.21802C8.92297 8.13794 9.01837 8.07495 9.12347 8.03247C9.22852 7.98999 9.34106 7.96924 9.45435 7.97119C9.56763 7.97314 9.67938 7.99805 9.78284 8.04395C9.88635 8.09009 9.97949 8.15674 10.0568 8.2395L12.4125 10.5942L16.3196 5.61597C16.3267 5.60742 16.3342 5.59912 16.3421 5.59131L16.341 5.59131Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
-		</g>
-	</g>
+<svg width="18" height="21" viewBox="0 0 18 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_324_48)">
+<path d="M12.341 5.5913C12.4995 5.44042 12.7104 5.35701 12.9292 5.35867C13.148 5.36032 13.3576 5.44691 13.5138 5.60017C13.6699 5.75343 13.7605 5.96136 13.7662 6.18009C13.772 6.39883 13.6926 6.61125 13.5447 6.77255L9.056 12.3863C8.97882 12.4694 8.88566 12.5361 8.7821 12.5825C8.67854 12.6288 8.5667 12.6537 8.45328 12.6558C8.33986 12.6579 8.22718 12.6371 8.12198 12.5947C8.01677 12.5522 7.92121 12.489 7.841 12.4088L4.86425 9.43205C4.78135 9.3548 4.71486 9.26165 4.66875 9.15815C4.62263 9.05465 4.59783 8.94292 4.59583 8.82963C4.59384 8.71634 4.61468 8.60381 4.65711 8.49875C4.69955 8.39369 4.76271 8.29825 4.84283 8.21813C4.92295 8.13801 5.01839 8.07484 5.12345 8.03241C5.22851 7.98997 5.34105 7.96913 5.45434 7.97113C5.56763 7.97313 5.67936 7.99793 5.78286 8.04404C5.88635 8.09016 5.97951 8.15665 6.05675 8.23955L8.4125 10.5942L12.3196 5.61605C12.3267 5.60738 12.3342 5.59912 12.3421 5.5913H12.341Z" fill="white"/>
+</g>
+<defs>
+<filter id="filter0_d_324_48" x="-4" y="0" width="26" height="26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_324_48"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_324_48" result="shape"/>
+</filter>
+</defs>
 </svg>

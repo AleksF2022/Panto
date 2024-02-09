@@ -1,0 +1,19 @@
+.card {
+  width: 268px;
+
+  // .card__photo
+
+  &__photo {
+    height: 240px;
+    background-color: #fafafa;
+    border-radius: 20px 20px 0 0;
+  }
+
+  // .card__desc
+
+  &__desc {
+    background-color: #fafafa;
+    border-radius: 0 0 20px 20px;
+    height: 240px;
+  }
+}

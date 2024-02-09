@@ -136,7 +136,7 @@ body {
   position: relative;
   padding-top: 40px;
   background-color: var(--footer-bg);
-  background-image: url("./../img/header/header-bg.jpeg");
+  background-image: url("./../img/header/header-bg.jpg");
   background-size: cover;
   aspect-ratio: 1440/1084;
   color: var(--header-text-color);
@@ -379,6 +379,11 @@ body {
 
 .benefits__title {
   max-width: 260px;
+  font-size: 42px;
+  font-weight: 700;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .benefit__title {
@@ -395,7 +400,28 @@ body {
   opacity: 0.8;
 }
 
-.benefit__link {
+.products {
+  padding: 50px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.products__title {
+  margin-bottom: 32px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 42px;
+}
+.products__tabs {
+  margin-bottom: 80px;
+  text-align: center;
+}
+.products__slider {
+  margin-bottom: 60px;
+}
+.products__link {
+  text-align: center;
+}
+
+.read-more {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -408,7 +434,58 @@ body {
   font-size: 14px;
   line-height: 1.85;
 }
-.benefit__link::after {
+.read-more::after {
   content: url("./../img/icons/arrow-right.svg");
   height: 24px;
+}
+.read-more--large {
+  font-size: 18px;
+}
+
+.tab-controls {
+  display: inline-block;
+  padding: 6px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 44px;
+  background: rgb(238, 238, 238);
+}
+.tab-controls__btn {
+  height: 45px;
+  padding: 7px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 32px;
+  background: #fff;
+  color: rgba(30, 30, 30, 0.8);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.85;
+  -webkit-transition: background-color 0.2 ease-in;
+  transition: background-color 0.2 ease-in;
+}
+.tab-controls__btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.tab-controls--active {
+  background-color: #fff;
+}
+
+.card {
+  width: 268px;
+}
+.card__photo {
+  height: 240px;
+  background-color: #fafafa;
+  border-radius: 20px 20px 0 0;
+}
+.card__desc {
+  background-color: #fafafa;
+  border-radius: 0 0 20px 20px;
+  height: 240px;
 }/*# sourceMappingURL=main.css.map */
