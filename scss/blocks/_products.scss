@@ -1,20 +1,35 @@
 .products {
+  padding: 50px 0;
+  // background-color: #f7f7f7;
   background-color: rgba(0, 0, 0, 0.2);
   // .products__title
 
   &__title {
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 700;
     font-size: 42px;
   }
 
   // .products__tabs
 
-  &__tabs {}
+  &__tabs {
+    margin-bottom: 80px;
+    text-align: center;
+  }
 
-  // .products__slider
+  // .products__slide
 
-  &__slider {}
+  &__slider {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+
+  }
 
   // .products__link
 
-  &__link {}
+  &__link {
+    text-align: center;
+  }
 }
